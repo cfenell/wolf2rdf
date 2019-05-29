@@ -1,0 +1,13 @@
+Sample routines to convert SO166 ionograms to RDF format for Autoscala
+(C) Carl-Fredrik Enell 2012
+
+
+Quick usage notes:
+matlab
+wolf2rdf(filename,<optional output dir>)
+
+Contents:
+wolf2rdf.m: main program
+wolfread.m: read header and data from SO166 ionogram file
+rdfwrite.m: write header and resized ionogram matrix to RDF file
+rdfread.m: read header and ionogram from RDF file, for testing/debugging
